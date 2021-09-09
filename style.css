@@ -10,7 +10,5 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Raleway", sans-serif;
-}
-html {
-	width: 100vw;
+	scroll-behavior: smooth;
 }
