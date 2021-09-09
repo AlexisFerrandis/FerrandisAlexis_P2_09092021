@@ -15,16 +15,16 @@
 
 		<header>
 			<nav>
-				<a href="#" id="logo"><img src="./assets/Projet 2 - Reservia/images/logo/Reservia.svg" alt="Logo de Reservia" /></a>
-				<div class="header-links">
+				<a href="#" class="centerFlex" id="logo"><img src="./assets/Projet 2 - Reservia/images/logo/Reservia.svg" alt="Logo de Reservia" /></a>
+				<div class="header-links centerFlex">
 					<div class="nav-link" id="accomodations-link">
-						<a href="#accomodations-section">Hébergements</a>
+						<a class="border-apparition centerFlex" href="#accomodations-section">Hébergements</a>
 					</div>
 					<div class="nav-link" id="activities-link">
-						<a href="#activities-section">Activités</a>
+						<a class="border-apparition centerFlex" href="#activities-section">Activités</a>
 					</div>
 					<div class="nav-link" id="login-link">
-						<a href="#">S'inscrire</a>
+						<a class="centerFlex" href="#">S'inscrire</a>
 					</div>
 				</div>
 			</nav>
@@ -36,23 +36,27 @@
 			<!-- Section 1 | Search and filter -->
 
 			<section>
-				<h1>Trouvez votre hébergement pour des vacnces de rêve</h1>
-				<p>En plein centre ville ou en pleine nature</p>
+				<div class="slogan">
+					<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+					<p>En plein centre ville ou en pleine nature</p>
+				</div>
 
 				<div id="search-container">
-					<i class="fas fa-map-marker-alt"></i>
+					<div class="location-icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
 					<input type="search" name="search" id="search-input" placeholder="Marseille, France" />
-					<button type="submit" class="search-button">Rechercher</button>
+					<button type="submit" class="search-button" id="search-button-text">Rechercher</button>
 					<!-- icone search for mobile version -->
 				</div>
 
-				<div class="filters-container">
+				<div id="filters-container">
 					<h3 class="">Filtres</h3>
-					<ul class="filters-list">
-						<li class="filter-button"><i class="fas fa-money-bill-wave"></i>Économique</li>
-						<li class="filter-button"><i class="fas fa-child"></i>Familial</li>
-						<li class="filter-button"><i class="fas fa-heart"></i>Romantique</li>
-						<li class="filter-button"><i class="fas fa-dog"></i>Animaux autorisés</li>
+					<ul class="filters-list centerFlex">
+						<li class="filter-button"><i class="fas fa-money-bill-wave"></i><span>Économique</span></li>
+						<li class="filter-button"><i class="fas fa-child"></i><span>Familial</span></li>
+						<li class="filter-button"><i class="fas fa-heart"></i><span>Romantique</span></li>
+						<li class="filter-button"><i class="fas fa-dog"></i><span>Animaux autorisés</span></li>
 					</ul>
 				</div>
 
@@ -64,108 +68,113 @@
 
 			<!-- Section 2 | Accomodations -->
 
-			<section>
-				<div id="accomodations-container">
+			<section id="accomodations-section">
+				<div class="accomodations-pad-bg-bdr" id="accomodations-container">
 					<h2>Hébergements à Marseille</h2>
 					<div id="accomodations-grid">
 						<a href="#">
-                            <div class="accomodation-display">
-                                <div class="accomodation-display-img">
-                                    <img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
-                                </div>
-                                <h4>Auberge la Cannebière</h4>
-                                <p>Nuit à partir de <span>25€</span></p>
-                                <div class="rating">
-                                    <i class="fas fa-star blue-star"></i>
-                                    <i class="fas fa-star blue-star"></i>
-                                    <i class="fas fa-star blue-star"></i>
-                                    <i class="fas fa-star blue-star"></i>
-                                    <i class="fas fa-star grey-star"></i>
-                                </div>
-						    </div>
-                        </a>
-						<a href="#"><div class="accomodation-display">
-							<div class="accomodation-display-img">
-								<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
+							<div class="accomodation-display">
+								<div class="accomodation-display-img">
+									<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
+								</div>
+								<h4>Auberge la Cannebière</h4>
+								<p>Nuit à partir de <span>25€</span></p>
+								<div class="rating">
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star grey-star"></i>
+								</div>
 							</div>
-							<h4>Hôtel du port</h4>
-							<p>Nuit à partir de <span>52€</span></p>
-							<div class="rating">
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-							</div>
-						</div></a>
-						<a href="#"><div class="accomodation-display">
-							<div class="accomodation-display-img">
-								<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
-							</div>
-							<h4>Hôtel Les mouettes</h4>
-							<p>Nuit à partir de <span>76€</span></p>
-							<div class="rating">
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star grey-star"></i>
-							</div>
-						</div></a>
-						<a href="#"><div class="accomodation-display">
-							<div class="accomodation-display-img">
-								<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
-							</div>
-							<h4>Hôtel de la mer</h4>
-							<p>Nuit à partir de <span>46€</span></p>
-							<div class="rating">
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star grey-star"></i>
-								<i class="fas fa-star grey-star"></i>
-							</div>
-						</div></a>
-						<a href="#"><div class="accomodation-display">
-							<div class="accomodation-display-img">
-								<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
-							</div>
-							<h4>Auberge le Panier</h4>
-							<p>Nuit à partir de <span>23€</span></p>
-							<div class="rating">
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star grey-star"></i>
-							</div>
-						</div></a>
+						</a>
+						<a href="#"
+							><div class="accomodation-display">
+								<div class="accomodation-display-img">
+									<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
+								</div>
+								<h4>Hôtel du port</h4>
+								<p>Nuit à partir de <span>52€</span></p>
+								<div class="rating">
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+								</div></div
+						></a>
+						<a href="#"
+							><div class="accomodation-display">
+								<div class="accomodation-display-img">
+									<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
+								</div>
+								<h4>Hôtel Les mouettes</h4>
+								<p>Nuit à partir de <span>76€</span></p>
+								<div class="rating">
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star grey-star"></i>
+								</div></div
+						></a>
+						<a href="#"
+							><div class="accomodation-display">
+								<div class="accomodation-display-img">
+									<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
+								</div>
+								<h4>Hôtel de la mer</h4>
+								<p>Nuit à partir de <span>46€</span></p>
+								<div class="rating">
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star grey-star"></i>
+									<i class="fas fa-star grey-star"></i>
+								</div></div
+						></a>
+						<a href="#"
+							><div class="accomodation-display">
+								<div class="accomodation-display-img">
+									<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
+								</div>
+								<h4>Auberge le Panier</h4>
+								<p>Nuit à partir de <span>23€</span></p>
+								<div class="rating">
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star grey-star"></i>
+								</div></div
+						></a>
 						<a href="#">
-                            <div class="accomodation-display">
-							<div class="accomodation-display-img">
-								<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
+							<div class="accomodation-display">
+								<div class="accomodation-display-img">
+									<img src="./assets/Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre à l'auberge Cannebière" />
+								</div>
+								<h4>Hôtel chez Amina</h4>
+								<p>Nuit à partir de <span>96€</span></p>
+								<div class="rating">
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+									<i class="fas fa-star blue-star"></i>
+								</div>
 							</div>
-							<h4>Hôtel chez Amina</h4>
-							<p>Nuit à partir de <span>96€</span></p>
-							<div class="rating">
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-								<i class="fas fa-star blue-star"></i>
-							</div>
-						</div>
-                    </a>
+						</a>
 						<h3><a href="#">Afficher plus</a></h3>
 					</div>
 				</div>
 
-				<div id="popular-accomodations-container">
-                    <h2>Les plus populaires</h2>
-					<div id="popular-column">
-                </div>
+				<div class="accomodations-pad-bg-bdr" id="popular-accomodations-container">
+					<h2>Les plus populaires</h2>
+					<div id="popular-column"></div>
+				</div>
 			</section>
 			<!-- Section 3 | Activities -->
+			<section id="activities-section">Lorem42</section>
 		</main>
 		<!-- Footer and link -->
 		<footer></footer>
