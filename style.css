@@ -369,21 +369,24 @@ span {
 	border-radius: 16px;
 	height: 100%;
 	box-shadow: 0px 4px 15px 7px rgba(66, 66, 66, 0.1);
+	transition: 0.2s;
+}
+.activities-display:hover {
+	transform: scale(1.03);
+}
+.activitie-img img {
+	object-fit: cover;
+	width: 100%;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
 }
 .paysage-img img {
-	object-fit: cover;
-	width: 100%;
 	height: 142px;
-	border-top-left-radius: 16px;
-	border-top-right-radius: 16px;
 }
 .portrait-img img {
-	object-fit: cover;
-	width: 100%;
 	height: 390px;
-	border-top-left-radius: 16px;
-	border-top-right-radius: 16px;
 }
+
 .activities-display h4 {
 	color: black;
 	font-weight: 700;
@@ -394,8 +397,30 @@ span {
 
 footer {
 	position: absolute;
-	height: 420px;
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	left: 0;
 	background-color: var(--background);
+}
+#footer-links {
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	padding: 50px 0;
+}
+.footer-section {
+	width: 33%;
+}
+.footer-section a {
+	color: black;
+	text-decoration: none;
+	line-height: 30px;
+}
+.footer-section h3 a {
+	font-weight: 700;
+	line-height: 60px;
+}
+.footer-section ul {
+	list-style: none;
 }
