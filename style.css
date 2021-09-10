@@ -25,7 +25,27 @@ html {
 	align-items: center;
 }
 body {
-	min-width: 1400px;
+	max-width: 1400px;
+	width: 100%;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+	width: 13px;
+	height: 13px;
+}
+::-webkit-scrollbar-thumb {
+	background: #7bb0ff;
+	border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #0065fc;
+}
+::-webkit-scrollbar-track {
+	background: #f0f0f0;
+	border-radius: 0px;
+	box-shadow: inset 0px 0px 0px 0px #f0f0f0;
 }
 
 /* HEADER */
@@ -203,22 +223,22 @@ h2 {
 		"four five six";
 	width: 100%;
 }
-.grid-area-one {
+.acco-grid-area-one {
 	grid-area: one;
 }
-.grid-area-two {
+.acco-grid-area-two {
 	grid-area: two;
 }
-.grid-area-three {
+.acco-grid-area-three {
 	grid-area: three;
 }
-.grid-area-four {
+.acco-grid-area-four {
 	grid-area: four;
 }
-.grid-area-five {
+.acco-grid-area-five {
 	grid-area: five;
 }
-.grid-area-six {
+.acco-grid-area-six {
 	grid-area: six;
 }
 #accomodations-grid a {
@@ -305,4 +325,77 @@ span {
 .popular-display .accomodation-description .rating {
 	position: absolute;
 	bottom: 10px;
+}
+
+/* ACTIVITIES */
+
+#activities-section {
+	width: 100%;
+	margin: 50px 0 80px;
+}
+#activities-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 40px 40px;
+	grid-template-areas:
+		"one two four five"
+		"one three four six";
+	height: 450px;
+	width: 1400px;
+}
+#activities-grid a {
+	text-decoration: none;
+}
+.acti-grid-area-one {
+	grid-area: one;
+}
+.acti-grid-area-two {
+	grid-area: two;
+}
+.acti-grid-area-three {
+	grid-area: three;
+}
+.acti-grid-area-four {
+	grid-area: four;
+}
+.acti-grid-area-five {
+	grid-area: five;
+}
+.acti-grid-area-six {
+	grid-area: six;
+}
+.activities-display {
+	border-radius: 16px;
+	height: 100%;
+	box-shadow: 0px 4px 15px 7px rgba(66, 66, 66, 0.1);
+}
+.paysage-img img {
+	object-fit: cover;
+	width: 100%;
+	height: 142px;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+.portrait-img img {
+	object-fit: cover;
+	width: 100%;
+	height: 390px;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+.activities-display h4 {
+	color: black;
+	font-weight: 700;
+	margin: 20px 0 0 20px;
+}
+
+/* FOOTER & LINKS */
+
+footer {
+	position: absolute;
+	height: 420px;
+	width: 100%;
+	left: 0;
+	background-color: var(--background);
 }
