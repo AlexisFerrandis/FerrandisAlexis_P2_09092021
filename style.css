@@ -340,7 +340,7 @@ span {
 	gap: 40px 40px;
 	grid-template-areas:
 		"one two four five"
-		"one three four six";
+		"one two four six";
 	height: 450px;
 	width: 1400px;
 }
@@ -350,11 +350,8 @@ span {
 .acti-grid-area-one {
 	grid-area: one;
 }
-.acti-grid-area-two {
+.inequal-display {
 	grid-area: two;
-}
-.acti-grid-area-three {
-	grid-area: three;
 }
 .acti-grid-area-four {
 	grid-area: four;
@@ -386,13 +383,24 @@ span {
 .portrait-img img {
 	height: 390px;
 }
-
 .activities-display h4 {
 	color: black;
 	font-weight: 700;
 	margin: 20px 0 0 20px;
 }
-
+#display-pomegues {
+	height: 230px;
+	margin-bottom: 40px;
+}
+.pomegues-img img {
+	height: 170px;
+}
+#display-frioul {
+	height: 180px;
+}
+.frioul-img img {
+	height: 120px;
+}
 /* FOOTER & LINKS */
 
 footer {
