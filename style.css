@@ -42,7 +42,7 @@ body {
 	border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: #0065fc;
+	background: var(--company-main);
 }
 ::-webkit-scrollbar-track {
 	background: #f0f0f0;
@@ -412,15 +412,13 @@ span {
 	font-weight: 700;
 	margin: 20px 0 0 20px;
 }
-
-/* POMEGUES & FRIOUL RATIO */
-
 .pomegues-img img {
 	height: 206px;
 }
 .frioul-img img {
 	height: 84px;
 }
+
 /* FOOTER & LINKS */
 
 footer {
@@ -495,7 +493,7 @@ footer {
 	}
 	#activities-grid {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
 		gap: 40px 3%;
 		grid-template-areas:
 			"one three five"
