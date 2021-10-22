@@ -20,6 +20,11 @@ The goal here was to transform a mockup into a website.
 The development will have to be done in  HTML and CSS only.
 
 
+## Preview 
+
+![Screenchot-desktop](./assets/Projet-2-Reservia/desktop-screenshot.png)
+
+
 ## Details
 
 #### Font:
@@ -30,8 +35,6 @@ Raleway
 
 Primary: #0065FC / Secondary: #DEEBFF / Tertiary: #F2F2F2.
 
-## Preview 
 
-![Screenchot-desktop](./assets/Projet-2-Reservia/desktop-screenshot.png)
 
 ![Screenchot-mobile](./assets/Projet-2-Reservia/mobile-screenshot.png)
