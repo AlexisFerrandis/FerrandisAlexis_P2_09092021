@@ -36,5 +36,3 @@ Raleway
 Primary: #0065FC / Secondary: #DEEBFF / Tertiary: #F2F2F2.
 
 
-
-![Screenchot-mobile](./assets/Projet-2-Reservia/mobile-screenshot.png)
