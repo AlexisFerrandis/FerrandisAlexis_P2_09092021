@@ -17,7 +17,7 @@ The goal here was to transform a mockup into a website.
 
 ## Technologies
 
-The development will have to be done in  HTML and CSS only.
+The development will have to be done in  HTML and CSS only, no JavaScript.
 
 
 ## Preview 
